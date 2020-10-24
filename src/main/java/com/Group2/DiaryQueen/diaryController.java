@@ -21,7 +21,7 @@ public class diaryController {
 	@PostConstruct
 	private void loadData() {
 		//create diaries 
-		DiaryHome d1 = new DiaryHome(1, "10/22","10:42","Travel Journal Day 1", "first day in Germany" );
+		DiaryHome d1 = new DiaryHome(1, "10/20","10:42","Travel Journal Day 1", "first day in Germany" );
 		DiaryHome d2 = new DiaryHome(2, "10/23", "3:45", "Daily Journal", "daily record of the life");
 		
 		//create the list
@@ -32,6 +32,7 @@ public class diaryController {
 		diaries.add(d2);
 		
 	}
+	
 	
 	//Mapping for the homepage list
 	@GetMapping("/homepage")
