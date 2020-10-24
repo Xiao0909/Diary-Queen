@@ -1,0 +1,68 @@
+/*top bar for all the pages*/
+.top{
+	background-color: #F77F00;
+	height: 250px;
+	font-family: Monaco, monaspace;
+	font-weight: bold;
+	margin-bottom: 50px;
+	color: #003049;
+}
+h1{
+	padding-top: 95px;
+    padding-left: 95px;
+  }
+body{
+	background-color: #EAE2B7;
+	font-family: Lucida, serif;
+	}
+
+/* homepage*/	
+th, tr{
+	color: #003049;
+}
+.table thead th{
+	border-top: 3px solid;
+	border-color: #D62828;
+	color: #FCBF49;
+}
+.table td, .table th{
+	border-color: #D62828;
+	color: #FCBF49;
+}
+.table{
+	border-bottom: 3px solid;
+	color: #D62828;
+	background-color: #003049;
+}
+.addNew{
+	color: #003049;
+}
+.addNew .addNewText{
+	visibility: hidden;
+    width: 120px;
+    color: #D62828;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    border: 2px solid #F77F00;
+    background-color: #003049;
+    font-size: 25px;
+    font-family: Lucida, serif;
+}
+.addNew:hover .addNewText {
+  visibility: visible;
+}
+
+/* add new page*/
+.addNewForm{
+	padding-top: 20px;
+	font-size: 20px;
+	color: #003049;
+}
+.content{
+	height: 400px;
+}
+.save, .cancel{
+	color: #FCBF49
+}
+
